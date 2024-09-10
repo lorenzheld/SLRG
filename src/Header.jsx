@@ -12,17 +12,22 @@ export default function Header() {
         <ul>
           <li>
             <Link to="/">
-              <img alt="Just skate." src="/images/logo.png" />
+              <img alt="SLRG logo" src="/images/logo.svg"/>
             </Link>
           </li>
           <li>
-            <NavLink activeStyle={activeStyle} to="/boards">
-              Boards
+            <NavLink activeStyle={activeStyle} to="/baderegeln">
+              Baderegeln
             </NavLink>
           </li>
           <li>
-            <NavLink activeStyle={activeStyle} to="/cart">
-              Cart
+            <NavLink activeStyle={activeStyle} to="/rettungsgeräte">
+              Rettungsgeräte
+            </NavLink>
+          </li>
+          <li>
+            <NavLink activeStyle={activeStyle} to="/rettungsgriffe">
+              Rettungsgriffe
             </NavLink>
           </li>
         </ul>
