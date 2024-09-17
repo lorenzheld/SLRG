@@ -263,6 +263,7 @@ header {
   background-color: #3498db; /* Heller Blauton für den Hintergrund */
   padding: 20px; /* Abstand um den gesamten Header */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatten für Tiefe */
+  border-radius: 15px;
 }
 
 nav {
