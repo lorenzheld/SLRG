@@ -120,6 +120,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: normal;
+  text-align: center;
 }
 
 img {
@@ -298,8 +299,8 @@ a:hover {
   color: purple; /* Aktive Links in lila */
 }
 
-img {
-  height: 50px; /* Größe des Logos anpassen */
+.img {
+  height: 70px; /* Größe des Logos anpassen */
 }
 
 /* Responsive Design für mobile Geräte */
@@ -312,4 +313,9 @@ img {
     flex-direction: column; /* Links vertikal anzeigen */
     gap: 10px; /* Weniger Abstand zwischen Links */
   }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }

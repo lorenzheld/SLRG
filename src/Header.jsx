@@ -12,24 +12,26 @@ export default function Header() {
         <ul>
           <li>
             <Link to="/">
-              <img alt="SLRG logo" src="/images/logo.svg"/>
+              <img className="img" alt="SLRG logo" src="/images/logo.svg"/>
             </Link>
           </li>
-          <li>
-            <NavLink activeStyle={activeStyle} to="/baderegeln">
-              Baderegeln
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeStyle={activeStyle} to="/rettungsgeräte">
-              Rettungsgeräte
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeStyle={activeStyle} to="/rettungsgriffe">
-              Rettungsgriffe
-            </NavLink>
-          </li>
+          <div className="flex">
+            <li>
+              <NavLink activeStyle={activeStyle} to="/baderegeln">
+                Baderegeln
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeStyle={activeStyle} to="/rettungsgeräte">
+                Rettungsgeräte
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeStyle={activeStyle} to="/rettungsgriffe">
+                Rettungsgriffe
+              </NavLink>
+            </li>
+          </div>
         </ul>
       </nav>
     </header>

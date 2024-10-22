@@ -63,11 +63,11 @@ export default function RettungsgerTe() {
         );
     }
 
-    // Jetzt rendern wir die Navbar innerhalb von RettungsgerTe
+
     return (
         <>
             <h1>Rettungsgeräte</h1>
-            <Navbar />  {/* Hier wird die Navbar aufgerufen */}
+            <Navbar />
         </>
     );
 }
