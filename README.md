@@ -26,4 +26,4 @@ I made the following enhancements:
 1. Simplified index.js (removed service worker)
 1. Deleted from src: index.css, logo.svg, serviceWorker.js, App.test.js
 1. Deleted from public: logo files, manifest.json, robots.txt
-1. Customized App.js and renamed to App.jsx
+1. Customized App.jsx and renamed to App.jsx

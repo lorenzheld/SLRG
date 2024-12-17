@@ -319,3 +319,39 @@ a:hover {
   display: flex;
   align-items: center;
 }
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin: 20px 0;
+}
+h2 {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+  color: #333;
+}
+ul li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 20px;
+}
+ul li::before {
+  content: '\u2022';
+  position: absolute;
+  left: 0;
+  color: #3498db;
+}
