@@ -54,79 +54,48 @@ export default function RettungsGerTe() {
                     {activeTab === 'Baywatch-Boje' && (
                         <div>
                             <h2>Baywatch-Boje</h2>
-                            <p>Die Baywatch-Boje ist ein schwimmfähiges Rettungsgerät, das ideal zur schnellen Rettung von Personen in Wasserrettungsszenarien geeignet ist.</p>
-                            <ul>
-                                <li>Material: Kunststoff</li>
-                                <li>Farbe: Rot</li>
-                                <li>Gewicht: 1.5 kg</li>
-                                <li>Eigenschaft: Leicht zu werfen und zu transportieren</li>
-                                <li>Einsatzgebiet: Schwimmbäder, Strände</li>
-                            </ul>
                         </div>
                     )}
                     {activeTab === 'Rettungsgurt' && (
                         <div>
                             <h2>Rettungsgurt</h2>
-                            <p>Der Rettungsgurt ermöglicht eine sichere Rettung durch Befestigung an der geretteten Person.</p>
-                            <ul>
-                                <li>Material: Nylon</li>
-                                <li>Farbe: Gelb</li>
-                                <li>Gewicht: 0.5 kg</li>
-                                <li>Eigenschaft: Schnell anlegbar und sicher</li>
-                                <li>Einsatzgebiet: Wasserrettung, Hochseilrettung</li>
-                            </ul>
                         </div>
                     )}
                     {activeTab === 'Rettungswürfel' && (
                         <div>
                             <h2>Rettungswürfel</h2>
-                            <p>Ein vielseitig einsetzbares Gerät, das dank seiner Form und Schwimmfähigkeit besonders einfach zu handhaben ist.</p>
-                            <ul>
-                                <li>Material: Schaumstoff</li>
-                                <li>Farbe: Blau</li>
-                                <li>Gewicht: 0.8 kg</li>
-                                <li>Eigenschaft: Einfach zu greifen und zu halten</li>
-                                <li>Einsatzgebiet: Seen, Pools</li>
-                            </ul>
                         </div>
                     )}
                     {activeTab === 'Rescue-Brett' && (
                         <div>
                             <h2>Rescue-Brett</h2>
-                            <p>Das Rescue-Brett ist ideal zur Stabilisierung von Verunglückten im Wasser und Transport zurück an Land.</p>
-                            <ul>
-                                <li>Material: Fiberglas</li>
-                                <li>Farbe: Weiß</li>
-                                <li>Gewicht: 7 kg</li>
-                                <li>Eigenschaft: Hohe Stabilität und Tragkraft</li>
-                                <li>Einsatzgebiet: Offenes Gewässer, Strömungen</li>
-                            </ul>
+                            <p>
+                                Das Rescue-Brett ist ähnlich wie ein Surfbrett. Es hat eine Fläche, auf der der Retter liegt und
+                                mit den Händen paddelt. Vorne hat es noch reichlich Platz für eine weitere Person. Mit dem Rescue-Brett
+                                kann eine Bewusstlose, so wie eine bewusste Person abgeschleppt werden. Das Brett wird eigentlich nur
+                                in Seen verwendet. Mit dem Brett ist man schnell unterwegs und kann jede Person einfach und schnell abschleppen.
+                            </p>
+                            <img src="/images/RtgrT/rescue-brett.png" alt="Bild des Rescue-Bretts" />
+
+                            <h3>Verwendung</h3>
+                            <p>
+                                Die rettende Person legt sich bäuchlings aufs Brett. Sie verlagert ihr Gewicht so, dass der Bug (hintere Teil) des
+                                Bretts leicht aus dem Wasser ragt. Zum Antreiben werden die Arme entlang der Seite des Bretts gezogen. Sobald man
+                                bei der Person angekommen ist, lässt man sich ins Wasser fallen, so dass sich das Brett auch dreht. Dann nimmt man
+                                die Person unter den Achseln und legt sie auf das Brett. Mit seinem Körpergewicht dreht man dann das Brett, so dass
+                                die Person nun auf dem Brett liegt und schwimmt, zurück.
+                            </p>
+                            <img src="/images/RtgrT/rescuebrett-anleitung.png" alt="Anleitung zur Verwendung des Rescue-Bretts" />
                         </div>
                     )}
                     {activeTab === 'Wurfsack' && (
                         <div>
                             <h2>Wurfsack</h2>
-                            <p>Der Wurfsack wird verwendet, um Personen eine schwimmfähige Leine zuzuwerfen.</p>
-                            <ul>
-                                <li>Material: Nylon</li>
-                                <li>Farbe: Orange</li>
-                                <li>Gewicht: 0.3 kg</li>
-                                <li>Eigenschaft: Sehr präzise zu werfen</li>
-                                <li>Einsatzgebiet: Flüsse, Bäche</li>
-                            </ul>
                         </div>
                     )}
                     {activeTab === 'Rettungsring' && (
                         <div>
                             <h2>Rettungsring</h2>
-                            <p>Der Rettungsring ist ein bewährtes und langlebiges Gerät zur Rettung von Personen im Wasser.</p>
-                            <ul>
-                                <li>Material: Kunststoff</li>
-                                <li>Farbe: Weiß und Rot</li>
-                                <li>Gewicht: 2 kg</li>
-                                <li>Eigenschaft: Einfach zu werfen, hohe Sichtbarkeit</li>
-                                <li>Einsatzgebiet: Seen, Meere, Schiffe</li>
-                            </ul>
                         </div>
                     )}
                 </div>
