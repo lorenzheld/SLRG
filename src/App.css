@@ -355,3 +355,26 @@ ul li::before {
   left: 0;
   color: #3498db;
 }
+.tab-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-container {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
