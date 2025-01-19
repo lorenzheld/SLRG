@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95d5ebb3.css",
+    "main.js": "/static/js/main.bf7dda22.js",
+    "static/media/Baderegeln_Alle.mp4": "/static/media/Baderegeln_Alle.7f2a5e574f3beac3c7ba.mp4",
+    "static/media/Rettungsring.png": "/static/media/Rettungsring.61a2c7319a50ac5c2ef4.png",
+    "static/media/baderegeln-dfi.jpg": "/static/media/baderegeln-dfi.c303c16ce9f2f509a043.jpg",
+    "static/media/rescue-brett.png": "/static/media/rescue-brett.45c54c35cd52db771ebe.png",
+    "static/media/Wurfsack.png": "/static/media/Wurfsack.9ac23503f91df72fe7b8.png",
+    "static/media/rescuebrett-anleitung.png": "/static/media/rescuebrett-anleitung.01986401ddd71a41b567.png",
+    "static/media/Transportschwimmen.png": "/static/media/Transportschwimmen.175addf0918af38b216d.png",
+    "static/media/rettungsgeräte.jpg": "/static/media/rettungsgeräte.7b5718fa11b944e1799e.jpg",
+    "static/media/Rettungswürfel.png": "/static/media/Rettungswürfel.12d02d5bc5c85e628938.png",
+    "static/media/Nacken-Stirn-Griff.png": "/static/media/Nacken-Stirn-Griff.65441f827ad222f0aad2.png",
+    "static/media/Rettungsring-verwendung.jpg": "/static/media/Rettungsring-verwendung.0f559346ce0c183f10fb.jpg",
+    "static/media/Nackengriff.png": "/static/media/Nackengriff.619bb2b1d3e99fba0ddb.png",
+    "static/media/Gurtretter.jpg": "/static/media/Gurtretter.2fd35615bf4953cc51da.jpg",
+    "static/media/Gurtretter-in-Action.jpg": "/static/media/Gurtretter-in-Action.d6e455e559f3c0230116.jpg",
+    "static/media/Wurfsack-Verwendung.jpg": "/static/media/Wurfsack-Verwendung.cfe570116b1130fe8213.jpg",
+    "static/media/Rettungsboje-Anleitung.jpg": "/static/media/Rettungsboje-Anleitung.875d2707d3425cf1c969.jpg",
+    "static/media/Rettungsboje.jpg": "/static/media/Rettungsboje.3544faf02ffd4941b5b3.jpg",
+    "static/media/Rettungswürfel-Bild.jpg": "/static/media/Rettungswürfel-Bild.b58cf8186e0b1d42c43f.jpg",
+    "static/media/Gurtretter-Anleitung.jpg": "/static/media/Gurtretter-Anleitung.d3f5f1a65cfe99c58643.jpg",
+    "index.html": "/index.html",
+    "main.95d5ebb3.css.map": "/static/css/main.95d5ebb3.css.map",
+    "main.bf7dda22.js.map": "/static/js/main.bf7dda22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95d5ebb3.css",
+    "static/js/main.bf7dda22.js"
+  ]
+}
