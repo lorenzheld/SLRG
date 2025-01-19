@@ -350,7 +350,6 @@ ul li {
   padding-left: 20px;
 }
 ul li::before {
-  content: '\u2022';
   position: absolute;
   left: 0;
   color: #3498db;
