@@ -378,3 +378,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.tab, .active-tab, p, h1, h2, h3, br, img {
+  outline: none; /* Entfernt Fokusumrandung */
+  user-select: none; /* Verhindert Markieren des Textes */
+  cursor: pointer; /* Zeigt an, dass dies klickbar ist */
+}
+
