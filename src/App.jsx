@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Baderegeln from "./Baderegeln";
 import RettungsgerTe from "./Rettungsgeräte";
 import Rettungsgriffe from "./Rettungsgriffe";
+import Home from "./Home.jsx";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<h1>SLRG</h1>} />
+            <Route path="/" element={<Home />} />
             <Route path="/baderegeln" element={<Baderegeln />} />
             <Route path="/rettungsgeräte" element={<RettungsgerTe />} />
             <Route path="/rettungsgriffe" element={<Rettungsgriffe />} />
