@@ -27,7 +27,6 @@ export default function Baderegeln() {
             <div className="tab-content">
                 {activeTab === 'Text' && (
                     <>
-                        <h2>Baderegeln</h2>
                         <img src={BildBaderegeln} alt="Baderegeln" height="100%" width="100%" />
                     </>
                 )}
