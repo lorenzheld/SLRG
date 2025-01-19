@@ -9,7 +9,7 @@ export default function Baderegeln() {
 
     return (
         <>
-            <h1 className="title">Baderegeln</h1>
+            <h1>Baderegeln</h1>
             <div className="navbar">
                 <div
                     className={activeTab === 'Text' ? 'active-tab' : 'tab'}
