@@ -384,3 +384,18 @@ img {
   cursor: pointer; /* Zeigt an, dass dies klickbar ist */
 }
 
+.video-container {
+  display: flex;
+  justify-content: center; /* Zentriert das Video horizontal */
+  align-items: center; /* Zentriert das Video vertikal (optional bei flexibler Höhe) */
+  margin: 20px 0; /* Abstand um das Video */
+}
+
+.video-container iframe {
+  width: 100%; /* Breite auf 100% des Containers */
+  max-width: 800px; /* Maximale Breite des Videos */
+  aspect-ratio: 16 / 9; /* Beibehaltung des Seitenverhältnisses */
+  border-radius: 10px; /* Optionale Abrundung der Ecken */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatten für bessere Optik */
+}
+
