@@ -55,7 +55,7 @@ header li {
 }
 
 #detail img {
-  max-height: 400;
+  max-height: 400px;
 }
 
 #price {
@@ -398,4 +398,20 @@ img {
   border-radius: 10px; /* Optionale Abrundung der Ecken */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatten für bessere Optik */
 }
+img {
+  border-radius: 10px;
+}
+.tab:hover,
+.active-tab:hover,
+a:hover {
+  background-color: #e0e0e0; /* Hellgrau */
+  color: #2c3e50; /* Optional: Dunklere Schriftfarbe bei Hover */
+  border-radius: 10px; /* Abgerundete Ecken */
+  transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease; /* Weicher Übergang */
+}
+
+
+
+
+
 
