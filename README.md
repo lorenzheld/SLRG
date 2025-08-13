@@ -1,29 +1,35 @@
-## Quick Start
+# SLRG – Informationswebsite
 
-Run the following commands:
+Dieses Projekt wurde im Rahmen des Praxisunterrichts erstellt und stellt eine Informationswebsite bereit.
 
-```
-npm install
-npm start
-```
+## Projektbeschreibung
 
-This will install dependencies, then start the app and mock API.
+Die Website dient dazu, Informationen übersichtlich darzustellen und Anwendern einen einfachen Zugang zu relevanten Inhalten zu ermöglichen. Ziel ist es, praktische Erfahrungen im Web-Development zu sammeln und eine funktionsfähige, ansprechende Informationsplattform bereitzustellen.
 
-## Starter Project Overview
+## Features & Inhalte
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Das Projekt basiert auf JavaScript und ist auf eine übersichtliche Informationsdarstellung ausgelegt.
+- Die Website kann über GitHub Pages gehostet werden.
+- Es sind verschiedene Funktionen wie Issues, Wiki und Projekte für die Weiterentwicklung und Dokumentation aktiviert.
+- Die wichtigsten Dateien sind zentrale Web-Dateien wie z.B. index.html oder entsprechende JavaScript-Komponenten, die die Kernlogik und das Layout der Seite bestimmen.
+- Die Projektstruktur ist für einfache Erweiterbarkeit und Anpassungen ausgelegt.
 
-I made the following enhancements:
+## Installation
 
-1. Added a mock API using [json-server](https://github.com/typicode/json-server). Configured `npm start` to run the app and mock API at the same time using [npm-run-all](https://www.npmjs.com/package/npm-run-all). See [Building Applications with React and Flux](https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents) for details on how to set this up from scratch.
-1. Installed [react-router-dom](https://www.npmjs.com/package/react-router-dom), [history](https://www.npmjs.com/package/history) (React Router peer dependency), and [cross-env](https://www.npmjs.com/search?q=cross-env) for declaring environment variables.
-1. Added some React components to help us get started: Header, Footer, Spinner
-1. Added styles to App.css
-1. Added `/public/images`.
-1. Added data fetching functions in `/src/services`.
-1. Added db.json to root as json-server's mock database
-1. Overwrote App.css with custom styles
-1. Simplified index.js (removed service worker)
-1. Deleted from src: index.css, logo.svg, serviceWorker.js, App.test.js
-1. Deleted from public: logo files, manifest.json, robots.txt
-1. Customized App.jsx and renamed to App.jsx
+1. Klone das Repository:
+   ```bash
+   git clone https://github.com/lorenzheld/SLRG.git
+   ```
+2. Navigiere in das Projektverzeichnis:
+   ```bash
+   cd SLRG
+   ```
+3. Weitere Schritte zur Installation je nach verwendeter Technologie.
+
+## Nutzung
+
+Nach der Installation kann die Website lokal gestartet und genutzt werden. Details zur Nutzung (z.B. Starten eines Servers) findest du ggf. in einer separaten Dokumentation oder in den jeweiligen Dateien des Projekts.
+
+## Mitwirkende / Kontakt
+
+Das Projekt wurde im Rahmen des Praxisunterrichts von [lorenzheld](https://github.com/lorenzheld) erstellt.
